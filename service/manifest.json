@@ -1,0 +1,26 @@
+{
+    "package":"com.vela.xmsdemo.service",
+    "name":"service",
+    "appType": "NATIVE",
+    "versionName":"1.0.0",
+    "versionCode":1,
+    "icon":"launch.png",
+    "execfile":"xmsservice",
+    "entry":"MainActivity",
+    "activities":[
+        {
+            "name":"MainActivity",
+            "launchMode":"singleTask"
+        }
+    ],
+    "services": [
+        {"name": "MusicService"},
+        {"name": "SettingsService",
+        "intent-filter":{
+            "actions":[
+                "action.system.BOOT_READY"
+            ]
+        }
+        }
+    ]
+}

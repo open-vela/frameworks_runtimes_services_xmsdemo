@@ -1,0 +1,21 @@
+{
+    "package":"com.vela.xmsdemo.launcher",
+    "name":"launcher",
+    "appType": "NATIVE",
+    "versionName":"1.0.0",
+    "versionCode":1,
+    "icon":"launch.png",
+    "execfile":"xmslauncher",
+    "entry":"HomeActivity",
+    "activities":[
+        {
+            "name":"HomeActivity",
+            "launchMode":"singleTask",
+            "intent-filter":{
+                "actions":[
+                    "action.system.HOME"
+                ]
+            }
+        }
+    ]
+}
