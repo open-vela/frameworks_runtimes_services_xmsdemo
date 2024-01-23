@@ -1,0 +1,9 @@
+config XMSDEMO_SERVICE
+	tristate "native xms service demo"
+	default n
+	depends on SYSTEM_SERVER
+	depends on SYSTEM_ACTIVITY_SERVICE
+	depends on SYSTEM_WINDOW_SERVICE
+	depends on SYSTEM_PACKAGE_SERVICE
+	---help---
+		Enable the Native Service Demo for AMS/WMS/PMS.
