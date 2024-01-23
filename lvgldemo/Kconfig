@@ -1,0 +1,12 @@
+config XMSDEMO_LVGLDEMO
+	tristate "native xms lvgl demo"
+	default n
+	depends on SYSTEM_SERVER
+	depends on SYSTEM_ACTIVITY_SERVICE
+	depends on SYSTEM_WINDOW_SERVICE
+	depends on SYSTEM_PACKAGE_SERVICE
+	depends on LV_USE_DEMO_MUSIC
+	depends on LV_USE_DEMO_WIDGETS
+	---help---
+		Enable the Lvgl Demo App for AMS/WMS/PMS.
+
