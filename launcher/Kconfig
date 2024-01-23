@@ -1,0 +1,9 @@
+config XMSDEMO_LAUNCHER
+	tristate "native xms launcher"
+	default n
+	depends on SYSTEM_SERVER
+	depends on SYSTEM_ACTIVITY_SERVICE
+	depends on SYSTEM_WINDOW_SERVICE
+	depends on SYSTEM_PACKAGE_SERVICE
+	---help---
+		Enable the Launcher Demo App for AMS/WMS/PMS.

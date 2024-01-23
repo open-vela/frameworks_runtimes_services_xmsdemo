@@ -1,0 +1,23 @@
+{
+    "package":"com.vela.xmsdemo.window",
+    "name":"window",
+    "appType": "NATIVE",
+    "versionName":"1.0.0",
+    "versionCode":1,
+    "icon":"launch.png",
+    "execfile":"xmswindows",
+    "entry":"MainActivity",
+    "activities":[
+        {
+            "name":"MainActivity",
+            "launchMode":"singleTask"
+        },
+        {
+            "name":"StandardWindow"
+        },
+        {
+            "name":"SingleWindow",
+            "launchMode":"singleTask"
+        }
+    ]
+}
