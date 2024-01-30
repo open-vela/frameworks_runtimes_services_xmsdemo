@@ -98,8 +98,7 @@ void HomeActivity::onCreate() {
             }
         }
 
-        mBtns.push_back(lvUtils::createLabelButton(&dialogRoot, "<< hide",
-                                                   {LV_ALIGN_DEFAULT, 0, 0},
+        mBtns.push_back(lvUtils::createLabelButton(&dialogRoot, "<< hide", {LV_ALIGN_DEFAULT, 0, 0},
                                                    [this](lv_event_t *) { mDialog->hide(); }));
         mDialog->hide();
     }
@@ -116,7 +115,6 @@ void HomeActivity::onCreate() {
 
     mBtns.push_back(lvUtils::createLabelButton(&root, "hide", {LV_ALIGN_BOTTOM_RIGHT, -20, -20},
                                                [this](lv_event_t *) { moveToBackground(); }));
-
 }
 
 void HomeActivity::onStart() {
@@ -147,6 +145,9 @@ void HomeActivity::onStop() {
 
 void HomeActivity::onDestroy() {
     ALOGI("HomeActivity onDestroy");
+    if (mDialog) {
+        mDialog = nullptr;
+    }
 }
 
 } // namespace launcher
