@@ -22,7 +22,7 @@ include $(APPDIR)/Make.defs
 
 PROGNAME  = xmslauncher
 PRIORITY  = 100
-STACKSIZE = $(CONFIG_DEFAULT_TASK_STACKSIZE)
+STACKSIZE = 16384
 
 CXXEXT := .cpp
 
