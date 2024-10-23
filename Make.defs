@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-include $(wildcard $(APPDIR)/frameworks/base/xmsdemo/*/Make.defs)
-CXXFLAGS += ${INCDIR_PREFIX}$(APPDIR)/frameworks/base/xmsdemo
+include $(wildcard $(APPDIR)/frameworks/runtimes/services/xmsdemo/*/Make.defs)
+CXXFLAGS += ${INCDIR_PREFIX}$(APPDIR)/frameworks/runtimes/services/xmsdemo
