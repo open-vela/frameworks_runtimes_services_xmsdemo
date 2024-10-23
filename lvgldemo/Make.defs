@@ -1,5 +1,5 @@
 ############################################################################
-# apps/frameworks/base/xmsdemo/lvgldemo/Make.defs
+# apps/frameworks/runtimes/services/xmsdemo/lvgldemo/Make.defs
 #
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -19,5 +19,5 @@
 ############################################################################
 
 ifneq ($(CONFIG_XMSDEMO_LVGLDEMO),)
-CONFIGURED_APPS += $(APPDIR)/frameworks/base/xmsdemo/lvgldemo
+CONFIGURED_APPS += $(APPDIR)/frameworks/runtimes/services/xmsdemo/lvgldemo
 endif
