@@ -1,5 +1,5 @@
 ############################################################################
-# apps/frameworks/base/xmsdemo/launcher/Make.defs
+# apps/frameworks/runtimes/services/xmsdemo/launcher/Make.defs
 #
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -19,5 +19,5 @@
 ############################################################################
 
 ifneq ($(CONFIG_XMSDEMO_LAUNCHER),)
-CONFIGURED_APPS += $(APPDIR)/frameworks/base/xmsdemo/launcher
+CONFIGURED_APPS += $(APPDIR)/frameworks/runtimes/services/xmsdemo/launcher
 endif
