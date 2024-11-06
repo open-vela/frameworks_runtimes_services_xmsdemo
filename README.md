@@ -1,14 +1,9 @@
 # Vela XMSDEMO Module
 
-XMSDEMO is a Vela example module that demonstrates how to use XMS for package management and application management. This module includes sample code, documentation, and use cases, making it suitable for developers to learn from and reference.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Sample Code](#sample-code)
-- [Contributions](#contributions)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -18,7 +13,7 @@ The XMSDEMO module provides several complete handling examples that illustrate h
 
 This section mainly demonstrates how to use Vela's AMS module to implement a quick application, with specific implementations available in the XMS demo's launcher module.
 
-First, define a `LauncherApplication.cpp`, with the core implementation as follows:
+1. define a `LauncherApplication.cpp`, with the core implementation as follows:
 
 ```c++
 class LauncherApplication : public Application {
@@ -41,7 +36,7 @@ class LauncherApplication : public Application {
 #include <app/AppMain.h>
 ```
 
-Next, we need to define a `HomeActivity`, with the core implementation as follows:
+2. define a `HomeActivity`, with the core implementation as follows:
 
 ```c++
 class HomeActivity : public Activity {
@@ -59,9 +54,3 @@ private:
     std::shared_ptr<Dialog> mDialog;
 };
 ```
-
-## Contributions
-
-## License
-
-## Contact
