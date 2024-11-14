@@ -1,5 +1,6 @@
 # Vela XMSDEMO 模块
 
+\[ [English](README.md) | 简体中文 \]
 
 ## 目录
 
