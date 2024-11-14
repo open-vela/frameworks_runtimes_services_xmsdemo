@@ -1,5 +1,7 @@
 # Vela XMSDEMO Module
 
+\[ English | [简体中文](README_zh_cn.md) \]
+
 ## Table of Contents
 
 - [Introduction](#introduction)
